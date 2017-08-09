@@ -1,0 +1,90 @@
+@import 'partials/variables';
+
+.mainContainerProjects{
+	min-height: 100vh;
+	background: $background-color;
+	padding: 0 4vw 0 4vw;
+}
+
+.displayText{
+	padding: 4vh 0 2vh 0;
+}
+
+.displayText-heading{
+	color: $primary-color;
+	display: block;
+	font-weight: bold;
+}
+
+.displayText-description{
+	color: $tertiary-color;
+	display:block;
+	padding-top: 1vh;
+}
+
+.filter{
+}
+
+.filter-buttons{
+	line-height: 5vh;
+	margin-left: -2vw;
+
+	@media screen and (min-width: $md) {
+		margin-left: -1vw;
+	}
+
+}
+
+.filter-button{
+	background-color: #313131;
+	// box-shadow: 4px 4px $shadow-color;
+	color: $secondary-color;
+	margin-left: 2vw;
+	border-color: #313131;
+	@include font-size-map($h3-font-size);
+
+	@media screen and (min-width: $md) {
+		margin-left: 1vw;
+	}
+
+}
+
+.filter-text{
+	margin-top: 2vh;
+	margin-bottom:2vh;
+	color: $tertiary-color;
+}
+
+.projects{
+}
+
+.project{
+	margin-top: 4vh;
+
+	@media screen and (min-width: $md) {
+		width: 4%;
+		display: inline-block;
+		width: 45%;
+		margin-right: 2.5%;
+	}
+
+}
+
+.project-title{
+	color: $secondary-color;
+
+}
+
+.project-image{
+	width: 100%;
+	margin-top: 1vh;
+}
+
+
+
+
+
+
+
+
+

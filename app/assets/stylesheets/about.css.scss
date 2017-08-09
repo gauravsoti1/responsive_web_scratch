@@ -1,0 +1,63 @@
+@import 'partials/variables';
+
+.mainContainerAbout{
+	height: 100vh;
+	background: $background-color;
+	display:flex;
+}
+
+.about{
+	align-self: center;
+	text-align: center;
+	width: 100%;
+	padding: 2rem;
+
+}
+
+.about-shortDesc{
+	color: $primary-color;
+}
+
+.about-desc{
+	color: $secondary-color;
+	margin-top: 2vh;
+}
+
+.menuButton{
+	position: fixed;
+	bottom: 5%;
+	right: 7%;
+	background: #232323;
+	width: 15%;
+	padding: 3% 5% 3% 5%;
+	text-align:center;
+	border-radius:50%;
+	cursor:pointer;
+
+	@media screen and (min-width: $sm) {
+		top: 5%;
+		right: 7%;
+		background: transparent;
+		padding: 0;
+		width: 6%;
+		border-radius:0%;
+	}
+
+	@media screen and (min-width: $md) {
+		width: 4%;
+	}
+
+}
+
+.menuButton-bar{
+  height: 2px;
+  background-color: #7a7a7a;
+  margin: 1vh 0;
+  padding: 0;
+  margin-right: 0;
+}
+
+
+
+
+
